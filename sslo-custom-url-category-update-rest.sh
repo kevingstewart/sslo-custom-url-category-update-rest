@@ -1,6 +1,5 @@
 #!/bin/bash
 ## F5 Custom URL Category Update Script
-## Author: kevin-at-f5-dot-com
 ## Description: provides options to add URLs, delete URLs, and list the URLs in an existing custom URL category
 ## Version: 1.0
 ## Requires: bash, curl, jq
