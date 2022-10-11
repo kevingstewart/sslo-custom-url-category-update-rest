@@ -18,9 +18,9 @@
       Show help:            ./urlupdater.sh -h
       List URLs:            ./urlupdater.sh -b 172.16.1.84 -u admin -c test-category -l
       Add single entry:     ./urlupdater.sh -b 172.16.1.84 -u admin -c test-category -a https://www.foo.com/
-      Add file entries:     ./urlupdater.sh -b 172.16.1.84 -u admin -c test-category -a file -f list.txt
+      Add file entries:     ./urlupdater.sh -b 172.16.1.84 -u admin -c test-category -a file -f testfile.txt
       Delete single entry:  ./urlupdater.sh -b 172.16.1.84 -u admin -c test-category -d https://www.foo.com/
-      Delete file entries:  ./urlupdater.sh -b 172.16.1.84 -u admin -c test-category -d file -f list.txt
+      Delete file entries:  ./urlupdater.sh -b 172.16.1.84 -u admin -c test-category -d file -f testfile.txt
 
 - **URL Format**:
 Supplied URLs must be in the following format:
