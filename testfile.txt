@@ -1,0 +1,5 @@
+https://1.foo.com/
+https://2.foo.com/
+https://3.foo.com/
+https://4.foo.com/
+https://*.bar.com/
