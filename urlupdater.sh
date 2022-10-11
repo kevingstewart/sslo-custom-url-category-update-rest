@@ -18,9 +18,9 @@
 ##  Show help:            $0 -h
 ##  List URLs:            $0 -b 172.16.1.84 -u admin -c test-category -l
 ##  Add single entry:     $0 -b 172.16.1.84 -u admin -c test-category -a https://www.foo.com/
-##  Add file entries:     $0 -b 172.16.1.84 -u admin -c test-category -a file -f list.txt
+##  Add file entries:     $0 -b 172.16.1.84 -u admin -c test-category -a file -f testfile.txt
 ##  Delete single entry:  $0 -b 172.16.1.84 -u admin -c test-category -d https://www.foo.com/
-##  Delete file entries:  $0 -b 172.16.1.84 -u admin -c test-category -d file -f list.txt
+##  Delete file entries:  $0 -b 172.16.1.84 -u admin -c test-category -d file -f testfile.txt
 ##
 ## URL format: supplied URLs must be in the following format:
 ##  https://URL/
@@ -44,9 +44,9 @@ help() {
    echo " Show help:            $0 -h"
    echo " List URLs:            $0 -b 172.16.1.84 -u admin -c test-category -l"
    echo " Add single entry:     $0 -b 172.16.1.84 -u admin -c test-category -a https://www.foo.com/"
-   echo " Add file entries:     $0 -b 172.16.1.84 -u admin -c test-category -a file -f list.txt"
+   echo " Add file entries:     $0 -b 172.16.1.84 -u admin -c test-category -a file -f testfile.txt"
    echo " Delete single entry:  $0 -b 172.16.1.84 -u admin -c test-category -d https://www.foo.com/"
-   echo " Delete file entries:  $0 -b 172.16.1.84 -u admin -c test-category -d file -f list.txt"
+   echo " Delete file entries:  $0 -b 172.16.1.84 -u admin -c test-category -d file -f testfile.txt"
    echo ""
    exit
 }
