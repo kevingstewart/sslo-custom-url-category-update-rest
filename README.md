@@ -14,6 +14,7 @@
       -u     = username for the BIG-IP (will prompt for password)
 
 - **Examples**:
+
       Show help:            ./urlupdater.sh -h
       List URLs:            ./urlupdater.sh -b 172.16.1.84 -u admin -c test-category -l
       Add single entry:     ./urlupdater.sh -b 172.16.1.84 -u admin -c test-category -a https://www.foo.com/
