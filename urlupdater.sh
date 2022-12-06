@@ -8,9 +8,9 @@
 ## Syntax:
 ##  -h     = show this help
 ##  -l     = list entries in the URL category
-##  -a     = add a single entry to the URL category
-##  -d     = delete a single entry from the URL category
-##  -t     = replace the URL category (overwrite)
+##  -a     = add an entry to the URL category
+##  -d     = delete an entry from the URL category
+##  -t     = replace the contents of the URL category (overwrite)
 ##  -f     = used with -a, -d, and -t to specify a file to read from
 ##  -b     = the IP address of the BIG-IP
 ##  -u     = username for the BIG-IP (will prompt for password)
@@ -36,10 +36,10 @@ help() {
    echo "Usage: $0 [options]"
    echo " -h     = show this help"
    echo " -l     = list entries in the URL category"
-   echo " -a     = add a single entry to the URL category"
-   echo " -d     = delete a single entry from the URL category"
-   echo " -t     = replace the URL category (overwrite)"
-   echo " -f     = used with -a and -d to specify a file to read from"
+   echo " -a     = add an entry to the URL category"
+   echo " -d     = delete aa entry from the URL category"
+   echo " -t     = replace the contents of the URL category (overwrite)"
+   echo " -f     = used with -a, -d, and -t to specify a file to read from"
    echo " -b     = the IP address of the BIG-IP"
    echo " -u     = username for the BIG-IP (will prompt for password)"
    echo ""
